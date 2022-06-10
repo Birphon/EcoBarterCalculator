@@ -1,23 +1,24 @@
 from tag import tag_list as tag
 from Items import items_list as item
 
+
 class SellingPrice:
-	def price_logic:
-		# 1 currency = 1 log = 5 rock = 4 ore = 1 sand/clay = 10 crop = 0.1 Bison
-		Currency = 0
-		Log = 1
-		Rock = 5
-		Ore = 4
-		Sand = 1
-		Clay = 1
-		Crop = 10
-		Bison = 0.1
-		
-	def tag_currency:
-		tag(wood) = currency+1
-		tag(stone) = currency+5
-		tag(ore) = 4
-		item(sand) = 1
-		item(clay) = 1
-		tag(crop) = 10
-		tag(bison) = 0.1
+
+    def __init__(self, currency=0, log=1, rock=5, ore=4, sand=1, clay=1, crop=10, bison=0.1) -> None:
+        self.currency = currency
+        self.log = log
+        self.rock = rock
+        self.ore = ore
+        self.sand = sand
+        self.clay = clay
+        self.crop = crop
+        self.bison = bison
+
+    def tag_currency(self):
+        tag.wood = self.currency+1
+        tag.stone = self.currency+5
+        tag.ore = self.currency+4
+        item.sand = self.currency+1
+        item.clay = self.currency+1
+        tag.crop = self.currency+10
+        tag.bison = self.currency+0.1

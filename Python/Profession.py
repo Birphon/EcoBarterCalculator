@@ -1,32 +1,32 @@
 class Profession:
-	def profession:
-		Advanced Baking
-		Advanced Cooking
-		Advanced Masonry
-		Advanced Smelting
-		Baking
-		Basic Engineering
-		Butchery
-		Campfire Cooking
-		Carpentry
-		Composites
-		Cooking
-		Cutting Edge Cooking
-		Electronics
-		Farming
-		Fertilizers
-		Gathering
-		Glassworking
-		Hunting
-		Industry
-		Logging
-		Masonry
-		Mechanics
-		Milling
-		Mining
-		Oil Drilling
-		Paper Milling
-		Pottery
-		Self Improvement
-		Smelting
-		Tailoring
+    def profession():
+        Advanced_Baking
+        Advanced_Cooking
+        Advanced_Masonry
+        Advanced_Smelting
+        Baking
+        Basic_Engineering
+        Butchery
+        Campfire_Cooking
+        Carpentry
+        Composites
+        Cooking
+        Cutting_Edge_Cooking
+        Electronics
+        Farming
+        Fertilizers
+        Gathering
+        Glassworking
+        Hunting
+        Industry
+        Logging
+        Masonry
+        Mechanics
+        Milling
+        Mining
+        Oil_Drilling
+        Paper_Milling
+        Pottery
+        Self_Improvement
+        Smelting
+        Tailoring
